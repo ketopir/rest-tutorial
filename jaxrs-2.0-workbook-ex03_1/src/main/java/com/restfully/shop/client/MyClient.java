@@ -12,6 +12,7 @@ public class MyClient {
 		Client client = ClientBuilder.newClient();
 
 		try {
+            // test
 			System.out.println("*** Create a new Customer ***");
 			String xml = "<customer>" + "<first-name>kkkkk</first-name>" + "<last-name>dddd</last-name>"
 					+ "<street>256 Clarendon Street</street>" + "<city>aaa</city>" + "<state>MA</state>"
